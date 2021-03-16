@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(void)
+{
+   double a;
+   double b;
+   double c = a*b;
+   scanf("%lf %lf",&a,&b);
+   printf("%.2lf",a*b);
+  return 0;
+}
